@@ -1,0 +1,33 @@
+#headerMain{
+    background: linear-gradient(#1B79AC, white);
+    height: 14rem;
+    border-bottom: ridge;
+    width: 100%;
+    overflow: hidden;
+}
+#headerIcon{
+    width: 10rem;
+    height: 10rem;
+    background-size: 100%;
+    background-image: url("./Logo.png");
+}
+#headerCategoryList{
+    margin-top: 2rem;
+}
+#unorderList{
+    list-style: none;
+}
+.headerList{
+    display: inline;
+    margin: 0 1rem;
+    padding: .6rem;
+    border-radius: 5rem;
+}
+.headerList:hover{
+    transition: 1s;
+    background-color: #d8247c;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+  }

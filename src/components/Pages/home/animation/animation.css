@@ -1,0 +1,32 @@
+#animationBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+#animationBack:hover{
+    opacity: 1;
+    transition: 3s;
+}
+#animationImg{
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('./images/image\ \(1\).jpg');
+    animation: images 20s ease infinite;
+}
+#animationImg:hover{
+    opacity: 1;
+    transition: 1s;
+}
+@keyframes images {
+    0%{ background-image: url('./images/image\ \(1\).jpg'); }
+    12.5%{ background-image: url('./images/image\ \(2\).jpg'); }
+    25%{ background-image: url('./images/image\ \(3\).jpg'); }
+    37.5%{ background-image: url('./images/image\ \(4\).jpg'); }
+    50%{ background-image: url('./images/image\ \(5\).jpg'); }
+    62.5%{ background-image: url('./images/image\ \(6\).jpg'); }
+    75%{ background-image: url('./images/image\ \(7\).jpg'); }
+    87.5%{ background-image: url('./images/image\ \(8\).jpg'); }
+}

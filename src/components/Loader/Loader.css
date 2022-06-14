@@ -1,0 +1,38 @@
+
+#loaderDiv{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#loaderUnorderList{
+    display: flex;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #1B79AC;
+}
+.first, .third, .five{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: #d8247c;
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s ease-in-out infinite;
+}
+.second, .four{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: #1B79AC;
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s ease-out infinite;
+}
+@keyframes first{
+    0%   {transform: translateY(0px ); box-shadow: 10px 0px 30px #1B79AC;}
+    10%  {transform: translateX( -70px ); box-shadow: -10px 20px 30px #d8247c;}
+    50%  {transform: translateY( -140px ); box-shadow: -10px -20px 30px #1B79AC;}
+    90%  {transform: translateX( 70px ); box-shadow: 10px -20px 30px #d8247c;}
+    100% {transform: translateY(0px); box-shadow: 10px 0px 30px #1B79AC;}
+}

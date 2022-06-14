@@ -1,0 +1,15 @@
+#allProductImg{
+    width: 15rem;
+    height: 15rem;
+    margin: .5rem 0;
+}
+#allProductDiv{
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    border: ridge;
+    display: inline-flex;
+    margin: 1.1rem;
+    width: 16rem;
+    height: 20rem;
+}

@@ -1,0 +1,15 @@
+#jewelleryProductImg{
+    width: 15rem;
+    height: 15rem;
+    margin: .5rem 0;
+}
+#jewelleryProductDiv{
+    align-items: center;
+    justify-content: center;
+    border: ridge;
+    border-radius: 2rem;
+    display: inline-flex;
+    margin: 1.1rem;
+    width: 16rem;
+    height: 20rem;
+}
